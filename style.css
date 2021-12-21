@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.img-wrapper {
+  text-align: center;
+}
+
+img {
+  width: 300px;
+  border-radius: 25px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.h150px {
+  height: 150px;
+}
+
+.ta-left {
+  text-align: left;
+}
+
+.ta-center {
+  text-align: center;
+}
+
+.ta-right {
+  text-align: right;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+/* Navbar */
+.navbar {
+  background-color: rgb(2, 119, 17);
+  padding: 10px;
+}
+
+.navbar a {
+  color: blue;
+}
+
+.nav-options {
+  margin: auto 0;
+}
+
+.nav-option {
+  margin: 0 8px 0 8px;
+}
+
+.logo-link {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 27px;
+  font-weight: 900;
+}
+
+/* Candidates */
+.candidates-table {
+  margin: 20px auto;
+  border: 1px solid white;
+  border-collapse: collapse;
+  color: white;
+}
+
+.candidates-table button {
+  border: none;
+  background-color: rgb(0, 0, 0, 0);
+  color: white;
+  text-decoration: underline;
+}
+
+.candidates-table thead button {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.candidates-table button:hover {
+  cursor: pointer;
+}
+
+.candidates-table tbody tr:nth-child(odd) {
+  background-color: rgb(31, 31, 31);
+}
+
+.candidates-table td {
+  padding: 5px 10px;
+}
+
+/* Add Candidate Page */
+.page-wrapper h1 {
+  text-align: center;
+  color: white;
+}
+
+.page-wrapper form {
+  margin: 0 auto;
+  width: fit-content;
+  color: white;
+  text-align: center;
+}
+
+.candidate-form-field {
+  text-align: right;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: lawngreen;
+}
+
+/* Election Results */
+.table-wrapper h2 {
+  color: white;
+  text-align: center;
+}
+
+.table-wrapper p {
+  color: white;
+  text-align: center;
+}
